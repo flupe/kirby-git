@@ -1,10 +1,10 @@
 import ValuesPush from './use/values-push.js'
-import GitLog from './fields/git-log.vue'
-import GitRevisions from './fields/git-revisions.vue'
+import GitLog from './sections/git-log.vue'
+import GitRevisions from './sections/git-revisions.vue'
 
 panel.plugin("wottpal/git", {
   use: [ValuesPush],
-  fields: {
+  sections: {
     gitLog: GitLog,
     gitRevisions: GitRevisions
   }

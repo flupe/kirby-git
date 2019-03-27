@@ -34,7 +34,7 @@ Set these in your `config.php` prefixed with `wottpal.git.`
 
 ## Log-Field
 
-A field named `gitLog` is included in the plugin which shows your whole Edit History. By setting `kirbyOnly` to `false` you can include developer-commits in the list as well.
+A section type named `gitLog` is included in the plugin which shows your whole Edit History. By setting `kirbyOnly` to `false` you can include developer-commits in the list as well.
 
 ```yaml
 revisions:
@@ -48,7 +48,7 @@ revisions:
 
 ## Revisions-Field
 
-A field named `gitRevisions` is included in the plugin which shows you all commits where the current page was edited and makes it possible to revert changes to a specific commit.
+A section named `gitRevisions` is included in the plugin which shows you all commits where the current page was edited and makes it possible to revert changes to a specific commit.
 
 Important: With the current state you need to define all fieldnames of which you want the content to be changed.
 

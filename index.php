@@ -21,6 +21,6 @@ Kirby::plugin('wottpal/git', [
 
   'hooks' => require_once __DIR__ . DS . 'hooks.php',
 
-  'fields' => require_once __DIR__ . DS . 'fields.php',
+  'sections' => require_once __DIR__ . DS . 'sections.php',
 
 ]);

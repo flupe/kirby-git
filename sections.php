@@ -4,6 +4,22 @@
 return [
 
   'gitLog' => [
+    'props' => [
+
+      'headline' => function ($headline) {
+        return I18n::translate($headline);
+      },
+
+      'limit' => function ($limit = 5) {
+        return $limit;
+      },
+
+      'kirbyOnly' => function ($kirbyOnly = true) {
+        return $kirbyOnly;
+      }
+
+    ],
+
     'computed' => [
 
       'gitLog' => function () use ($gitHelper) {
